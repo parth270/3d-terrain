@@ -8,8 +8,10 @@ this is your next-gsap-boiler-plate-4
 
 ```bash
 npm install
+```
 
 - and then this
 
 ```bash
 npm run dev
+```
