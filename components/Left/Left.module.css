@@ -1,0 +1,40 @@
+.container {
+  width: 42.5%;
+  min-height: 10px;
+}
+
+.h1 {
+  font-size: 24px;
+  line-height: 36px;
+  font-family: "Cousine", monospace;
+  font-weight: 400;
+}
+
+.p {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Cousine", monospace;
+  font-weight: 400;
+  margin-bottom: 70px;
+}
+
+.a {
+  color: #a86f3b;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "Cousine", monospace;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 161px;
+  cursor: pointer;
+}
+
+.a:hover{
+ text-decoration: underline;
+}
+
+.a i{
+    height: 100%;
+    margin-top:-3px;
+}
