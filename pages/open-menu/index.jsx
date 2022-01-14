@@ -7,8 +7,16 @@ import Left from "../../components/Left/Left";
 import Right from "../../components/Right/Right";
 import Overlay from "../../components/Overlay/Overlay";
 import Para from "../../components/Para/Para";
+import { useRouter } from "next/router";
 
 const OpenMenu = () => {
+
+  const router=useRouter();
+
+  const clickHandler=()=>{
+    router.replace("/contact");
+  }
+
   return (
     <>
       <Head>
@@ -22,7 +30,7 @@ const OpenMenu = () => {
           <Para size={24} lineHeight={22} align="center" top={181}>
             All Work (coming one day soon)
           </Para>
-          <Para size={24} lineHeight={22} align="center" top={100}>
+          <Para size={24} lineHeight={22} align="center" top={100} onClick={clickHandler} link={true} >
             Contact the studio
           </Para>
         </Overlay>

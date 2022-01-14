@@ -9,17 +9,17 @@ const Left = (props) => {
   return (
     <div className={classes.container}>
       <div className={classes.wrapper}>
-        <Tween from={{ y: "100px" }} duration={1.2} ease="Power4.easeOut">
+        <Tween from={{ y: "100%" }} duration={1.2} ease="Power4.easeOut">
           <h1 className={classes.h1}>{props.title}</h1>
         </Tween>
       </div>
       <div className={classes.wrapper}>
-        <Tween from={{ y: "100px" }} duration={1.2} ease="Power4.easeOut">
+        <Tween from={{ y: "100%" }} duration={1.2} ease="Power4.easeOut">
           <p className={classes.p}>{props.para}</p>
         </Tween>
       </div>
       <div className={classes.wrapper}>
-        <Tween from={{ y: "100px" }} duration={1.2} ease="Power4.easeOut">
+        <Tween from={{ y: "100%" }} duration={1.2} ease="Power4.easeOut">
           <span
             className={classes.a}
             onClick={() => {

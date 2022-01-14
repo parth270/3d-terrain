@@ -25,3 +25,8 @@
     color:#323849;
     line-height:24px;
 }
+
+.wrapper{
+    width:100%;
+    overflow: hidden;
+}

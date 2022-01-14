@@ -8,3 +8,11 @@
 .container{
     overflow: hidden;
 }
+
+.link{
+    cursor: pointer;
+}
+
+.link:hover{
+    text-decoration: underline;
+}

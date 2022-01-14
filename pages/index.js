@@ -5,6 +5,7 @@ import Row from "../components/Row/Row";
 import Left from "../components/Left/Left";
 import Right from "../components/Right/Right";
 import Head from "next/head";
+import Menu from "../components/MenuIcon/Menu";
 
 // Landing Page
 
@@ -18,7 +19,10 @@ export default function Home() {
         ></script>
       </Head>
       <Card>
+        <Row margin="0" >
         <Lottie />
+        <Menu/>
+        </Row>
         <Para size={16} top={30} lineHeight={30}>
           además is an open, collaborative, editorial studio exploring creative
           direction and publishing in print, digital and audio. We work with
@@ -52,7 +56,7 @@ export default function Home() {
         <Row>
           <Left
             title="Publication for Art in Embassies, US State Department"
-            src="/full-post"
+            src="/open-menu"
             para="A unique publication and some simple tex.t In search of a new editorial and business model for my writing, I stepped out of my comfort zone and took a critical look at the [music] publishing scene to conceive, co-create and produce a print and digital publication with international reach. The invested process blended editorial direction with a broader creative skillset and resulted in HIGHWAY: “a pocket-sized companion to the musicians, artists, writers, thinkers, documentarians, storytellers and objects we encounter.”"
           />
           <Right src="a1.jpg" align={180} />

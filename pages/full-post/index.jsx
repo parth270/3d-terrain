@@ -6,6 +6,8 @@ import Heading from "../../components/Heading/Heading";
 import ProjectDetail from "../../components/ProjectDetail/ProjectDetail";
 import ProjectImage from "../../components/ProjectImage/ProjectImage";
 import Para from "../../components/Para/Para";
+import Row from "../../components/Row/Row";
+import Menu from "../../components/MenuIcon/Menu";
 
 const FullPost = () => {
   return (
@@ -17,8 +19,11 @@ const FullPost = () => {
         ></script>
       </Head>
       <Card>
-        <MainLottie />
-        <Heading title="HIGHWAY Magazine" transition={true} />
+        <Row margin="0">
+          <MainLottie />
+          <Menu />
+        </Row>
+        <Heading title="HIGHWAY Magazine" top={50}  />
         <ProjectImage src="a1.jpg" />
         <ProjectDetail title="Project Details">
           Client: Self-initiated.
@@ -69,7 +74,7 @@ const FullPost = () => {
           artists, writers, thinkers, documentarians, storytellers and objects
           we encounter.” With its original editorial stance, writing.
         </ProjectDetail>
-        <ProjectImage src="a1.jpg"/>
+        <ProjectImage src="a1.jpg" />
         <ProjectDetail title="Results">
           In search of a new editorial and business model for my writing, I
           stepped out of my comfort zone and took a critical look at the [music]
@@ -80,9 +85,10 @@ const FullPost = () => {
           artists, writers, thinkers, documentarians, storytellers and objects
           we encounter.” With its original editorial stance, writing.
         </ProjectDetail>
-        <hr style={{width:"100%",marginTop:80}}  /> 
-        <Para size={10} lineHeight={18}  align="center" >
-        All content on this site is originally produced by además studio and is held in copyright.
+        <hr style={{ width: "100%", marginTop: 80 }} />
+        <Para size={10} lineHeight={18} align="center">
+          All content on this site is originally produced by además studio and
+          is held in copyright.
         </Para>
       </Card>
     </>

@@ -14,10 +14,17 @@ const Para = (props) => {
         textAlign: `${props.align ? props.align : ""}`,
         width: `${props.width ? props.width : "100%"}`,
       }}
+      onClick={() => {
+        if(props.link){
+          props.onClick();
+        }
+      }}
     >
-      <Reveal trigger={<p className={classes.para} />} repeat >
+      <Reveal trigger={<p className={classes.para} />} repeat>
         <Tween from={{ y: "100%" }} duration={1.2} ease="Power4.easeOut">
-          <p className={classes.para}>{props.children}</p>
+          <p className={`${classes.para} ${props.link && classes.link}`}>
+            {props.children}
+          </p>
         </Tween>
       </Reveal>
     </div>
