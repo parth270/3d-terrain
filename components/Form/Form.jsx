@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './Form.module.css';
+import Link from 'next/link';
 
 const Form=(props)=>{
 
@@ -11,7 +12,7 @@ const Form=(props)=>{
         <form onSubmit={submitHandler} className={classes.form}  >
             {props.children}
             <button className={classes.btn} >
-                Send Message <i className="fas fa-arrow-right"/>
+               <Link href="/contact/thankyou" >Send Message</Link>  <i className="fas fa-arrow-right"/>
             </button>
         </form>
     );

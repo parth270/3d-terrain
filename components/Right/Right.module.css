@@ -1,5 +1,15 @@
 .img{
-    width:42.5%;
+    width:100%;
     object-fit:cover;
     height:207px;
+}
+.container{
+    width: 42.5%;
+    position: relative;
+}
+
+.trigger{
+
+    position: fixed;
+    top:-200;
 }

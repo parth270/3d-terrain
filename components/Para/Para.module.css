@@ -2,3 +2,9 @@
     min-height:10px;
     font-family: 'Cousine', monospace;
 }
+.container p{
+    margin:0;
+}
+.container{
+    overflow: hidden;
+}

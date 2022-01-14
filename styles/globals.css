@@ -20,15 +20,19 @@ a {
 }
 
 .contact-lottie {
-  float: right;
-  margin-top:0px !important;
+  position: absolute;
+  top:0;
+  right:0;
+  margin-top:50px !important;
   width:600px !important;
-  margin-right: -200px !important;
 }
 
+
 .thankyou-lottie {
-  float: right;
-  margin-top:-70px !important;
-  width:600px !important;
-  margin-right: -200px !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: -58px !important;
+    width: 600px !important;
+    margin-right: -58px !important;
 }

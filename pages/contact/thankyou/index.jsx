@@ -16,8 +16,8 @@ const Thankyou = () => {
       </Head>
       <Card>
         <MainLottie className="thankyou-lottie" />
-        <Heading title="Thank you. " top="50" />
-        <Para size={14} lineHeight={24} top={50} >
+        <Heading title="Thank you. " top="100" width="50%" transition={true}  />
+        <Para size={14} lineHeight={24}  top={30} width="65%" >
         Thank you for your message. We will aim to respond in a timely manner, ideally within 3 business days. Thank you again. 
         </Para>
       </Card>

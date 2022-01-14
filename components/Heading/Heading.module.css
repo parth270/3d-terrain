@@ -4,4 +4,19 @@
     color:#323849;
     font-family: 'Cousine', monospace;
     font-weight: 400;
+    height:24px;
+    margin:0;
+}
+
+.span{
+    font-size:30px;
+    line-height: 22px;
+    color:#323849;
+    font-family: 'Cousine', monospace;
+    font-weight: 400;
+}
+
+.container{
+    overflow: hidden;
+    padding: 4px 0 2px 0;
 }

@@ -18,7 +18,7 @@ const FullPost = () => {
       </Head>
       <Card>
         <MainLottie />
-        <Heading title="HIGHWAY Magazine" />
+        <Heading title="HIGHWAY Magazine" transition={true} />
         <ProjectImage src="a1.jpg" />
         <ProjectDetail title="Project Details">
           Client: Self-initiated.
