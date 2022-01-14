@@ -9,6 +9,7 @@ import Head from "next/head";
 // Landing Page
 
 export default function Home() {
+
   return (
     <>
       <Head>
@@ -54,7 +55,7 @@ export default function Home() {
           />
           <Right src="a1.jpg" align={180} />
         </Row>
-        <hr style={{padding:"0 180px",width:"80%"}}  />
+        <hr style={{width:"100%"}}  />
         <Para size={10} lineHeight={18}  align="center" >
         All content on this site is originally produced by además studio and is held in copyright.
         </Para>

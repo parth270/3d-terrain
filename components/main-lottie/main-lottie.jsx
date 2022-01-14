@@ -1,19 +1,19 @@
 import React from "react";
 import classes from "./main-lottie.module.css";
-import Head from 'next/head';
+import Head from "next/head";
 
-const MainLottie = () => {
+const MainLottie = (props) => {
   return (
     <>
       <Head>
-      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
       </Head>
       <lottie-player
-        src="https://assets4.lottiefiles.com/datafiles/uIqOUNaohkgyRYQ/data.json" 
+        src="https://assets4.lottiefiles.com/datafiles/uIqOUNaohkgyRYQ/data.json"
         background="transparent"
         speed="1"
-        loop
-        class={classes.animate}
+        loop={true}
+        class={`${classes.animate} ${props.className}`}
         autoplay
       />
     </>

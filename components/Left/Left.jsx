@@ -9,7 +9,7 @@ const Left = (props) => {
         {props.para}
       </p>
       <a to={props.src? props.src:""} className={classes.a} >
-      View project <i class="fas fa-arrow-right"></i>
+      View project <i className="fas fa-arrow-right"/>
       </a>
     </div>
   );

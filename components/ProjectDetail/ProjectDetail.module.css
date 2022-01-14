@@ -1,0 +1,27 @@
+.bg-container{
+    width:100%;
+    min-height:10px;
+    display: flex;
+}
+
+.container{
+    width:400px;
+    min-height:10px;
+    margin:70px 0;
+}
+
+.h1{
+    font-size:14px;
+    line-height: 22px;
+    color: #323849;
+    font-family: 'Cousine', monospace;
+    font-weight: 700;
+}
+
+.p{
+    font-size: 14px;
+    font-family: 'Cousine', monospace;
+    font-weight: 400;
+    color:#323849;
+    line-height:24px;
+}

@@ -1,0 +1,11 @@
+.container{
+    width: 100%;
+    min-height: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.img{
+    width:60%;
+    margin:40px 0 40px auto;
+}
